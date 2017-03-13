@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login form</title>
+<style>
+body{
+background-color:";
+color:blue;
+}
+table {
+    border-collapse: collapse;
+    border:0;
+     width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+.td3{
+text-align:right:
+}
+#table2{
+ vertical-align:middle;
+ }
+</style>
+</head>
+<body>
+<form  name="form1" action="LoginServlet" onsubmit="return validateForm()" method="post">
+<table id="table2">
+<tr>
+<td class="td1"> enter User Name:</td> <td class="td3"><input type="text" name="name"></td>
+
+</tr>
+<tr>
+
+<td> enter Password: </td><td><input type="password" name="password"></td>
+</tr>
+<tr>
+<tr>
+<td colspan="2" class="td2"> <input type="submit" name="submit" value="Login"></td>
+
+</tr>
+</table>
+</form>
+</body>
+<script src="Validate.js" ></script>
+</html>
